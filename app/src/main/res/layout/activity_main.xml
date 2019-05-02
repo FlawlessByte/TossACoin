@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6ad1e1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tossTextHead"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="#fff"
+        android:text="@string/start_msg"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coinImageView"
+        android:layout_centerInParent="true"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tossButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="24dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#ffffff"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:text="Toss Again!"/>
+
+</RelativeLayout>

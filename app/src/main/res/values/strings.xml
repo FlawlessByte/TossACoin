@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tossly</string>
+    <string name="tossing">Tossing ...</string>
+    <string name="tails">Tails!</string>
+    <string name="heads">Heads!</string>
+    <string name="start_msg">Toss a coin!</string>
+</resources>

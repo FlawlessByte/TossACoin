@@ -7,6 +7,17 @@
     android:background="#6ad1e1"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:onClick="privacyButtonClicked"
+        android:background="@drawable/shield_with_lock"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

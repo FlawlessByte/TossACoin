@@ -9,11 +9,6 @@
     </style>
 
 
-
-    Based on the answer by @nebyan, I found that the action bar is still not hiding.
-
-    The following code works for me:
-
     <style name="AppFullScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
